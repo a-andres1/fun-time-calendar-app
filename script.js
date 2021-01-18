@@ -30,7 +30,7 @@ hourColumn.addClass("col-md-1 hour");
 $(".row").prepend(hourColumn);
 // creates text in hourColumn
 for (var i = 0; i < hours.length; i++){
-hourColumn.text(hours[i]);
+hourColumn.text();
 }
 
 var textArea = $("<input>");
@@ -51,3 +51,7 @@ $(".row").append(saveBtn);
 $("button.saveBtn").text("save")
 
 
+$(".saveBtn").click(function(){
+console.log("save");
+
+});
