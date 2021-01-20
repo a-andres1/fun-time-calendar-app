@@ -17,34 +17,44 @@ for (var i = 0; i < hours.length; i++){
 // create hour divs 
 var mainHourDiv = $("<div>");
 // adds class - row
-mainHourDiv.addClass("row");
-// apppends div to container
-$(".container").append(mainHourDiv);
-}
+mainHourDiv.addClass("row").attr("id", hours[i]);
 
 // creates column for holding hour times
-var hourColumn = $("<div>");
+var hourColumn = $("<div>" + hours[i] + "</div>");
 // adds column class for spacing
 hourColumn.addClass("col-md-1 hour");
-// appends coloumn to mainHourDiv row
-$(".row").prepend(hourColumn);
-// creates text in hourColumn
-for (var i = 0; i < hours.length; i++){
-hourColumn.text();
-}
+
 
 var textArea = $("<input>");
 // adds classes for spacing to textArea divs
 textArea.addClass("col-md-10 textFill input-group timeblock");
-// appends the text area to the mainHourDiv row
-$(".row").append(textArea);
-// adds text to see the spacing for now
-// $("div.timeblock").text("text goes here")
 
 // creates save button 
 var saveBtn = $("<button>");
 // adds classes to button
 saveBtn.addClass("col-md-1 saveBtn");
+
+// apppends div to container
+$(".container").append(mainHourDiv);
+}
+
+
+// appends coloumn to mainHourDiv row
+$(".row").append(hourColumn);
+// creates text in hourColumn
+// for (var i = 0; i < hours.length; i++){
+// $("div.hour").attr("id", hours[i]);
+// console.log (hours[i]);
+// }
+
+
+// appends the text area to the mainHourDiv row
+$(".row").append(textArea);
+// adds text to see the spacing for now
+// $("div.timeblock").text("text goes here")var 
+
+
+
 // appends button to mainHourDiv
 $(".row").append(saveBtn);
 // displays text to test if it's working
@@ -53,5 +63,7 @@ $("button.saveBtn").text("save")
 
 $(".saveBtn").click(function(){
 console.log("save");
+var savedText = $("#textFill").val();
 
+localStorage.setItem("save", savedText)
 });
