@@ -33,12 +33,13 @@ textarea{
 
 .input-group{
   float: left;
+  padding: 2%;
 }
 
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 7px;
   border-top: 1px solid white;;
 }
 
@@ -70,9 +71,11 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  padding: 25px;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
