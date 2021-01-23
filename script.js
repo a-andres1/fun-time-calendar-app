@@ -40,8 +40,6 @@ for (var i = 0; i < hours.length; i++) {
 }
 
 
-
-
 // displays text to test if it's working
 $("button.saveBtn").html("<i class=\"far fa-save\"></i>");
 
