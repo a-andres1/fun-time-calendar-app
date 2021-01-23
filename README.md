@@ -37,3 +37,14 @@ function checkTime() {
 It represents not only that I was able to create unique ids dynamically, but that I figured out how to select those ids, compare them to the API, and then use that to dynamically update the page. I feel pretty good about it!
 
 I needed some help with the local storage, which necessitated some editing of this loop, but I came up with the loop myself and I'm very proud that I figured it out. A few weeks ago, I don't think I would have known where to start. 
+
+## Deployed Site
+
+[Repo](https://github.com/a-andres1/password-generator.git)
+
+
+
+
+## Screenshot
+
+![calendar-app](./Assests/CalendarApp.png)
