@@ -48,3 +48,8 @@ I needed some help with the local storage, which necessitated some editing of th
 ## Screenshot
 
 ![calendar-app](./Assests/CalendarApp.png)
+
+### Notes
+
+As a note, I chose the hours 8am to 6pm for flexibility in your work day.
+
