@@ -46,12 +46,8 @@ $("button.saveBtn").html("<i class=\"far fa-save\"></i>");
 // on click event to save input boxes into local storage
 $(".saveBtn").click(function () {
     var userTask = $(this)
-    console.log(userTask)
-    var userTaskId = userTask.attr("id")
-    console.log(userTaskId);
-    // debugger
+    var userTaskId = userTask.attr("id");
     var savedText = $("input#" + userTaskId).val();
-
     localStorage.setItem(userTaskId, savedText);
 
 });
