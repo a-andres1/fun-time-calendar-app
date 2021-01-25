@@ -49,7 +49,6 @@ $(".saveBtn").click(function () {
     var userTaskId = userTask.attr("id");
     var savedText = $("input#" + userTaskId).val();
     localStorage.setItem(userTaskId, savedText);
-
 });
 
 // function for loading tasks from local storage when page reloads
