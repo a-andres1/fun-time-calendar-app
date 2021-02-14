@@ -1,11 +1,11 @@
 # Calendar App
 
-## Write-Up
+
 
 ![calendar-app](./Assests/CalendarApp.png)  
 
 
-
+## Write-Up  
 For this homework I set myself the task of generating everything through jQuery. It wasn't required, but I knew that everything in this homework could be completed using jQuery, it would just take a little more thinking. 
 
 I figured that I could always have html to fall back on if it became too overwhelming. 
@@ -42,9 +42,12 @@ It represents not only that I was able to create unique ids dynamically, but tha
 
 I needed some help with the local storage, which necessitated some editing of this loop, but I came up with the loop myself and I'm very proud that I figured it out. A few weeks ago, I don't think I would have known where to start. 
 
+### How it works  
+![gif](./Assests/scheduler.gif)
+
 ## Deployed Site
 
-[Repo](https://github.com/a-andres1/password-generator.git)
+[Repo](https://github.com/a-andres1/password-generator.git)  
 [Deployed Site](https://a-andres1.github.io/fun-time-calendar-app/)
 
 
