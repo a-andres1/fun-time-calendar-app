@@ -41,6 +41,7 @@ I needed some help with the local storage, which necessitated some editing of th
 ## Deployed Site
 
 [Repo](https://github.com/a-andres1/password-generator.git)
+[Deployed Site](https://a-andres1.github.io/fun-time-calendar-app/)
 
 
 
