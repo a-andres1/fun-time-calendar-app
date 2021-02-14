@@ -2,6 +2,10 @@
 
 ## Write-Up
 
+![calendar-app](./Assests/CalendarApp.png)  
+
+
+
 For this homework I set myself the task of generating everything through jQuery. It wasn't required, but I knew that everything in this homework could be completed using jQuery, it would just take a little more thinking. 
 
 I figured that I could always have html to fall back on if it became too overwhelming. 
@@ -44,11 +48,39 @@ I needed some help with the local storage, which necessitated some editing of th
 [Deployed Site](https://a-andres1.github.io/fun-time-calendar-app/)
 
 
+## Technologies Used
+jQuery  
+Javascript  
+[Luxon](https://moment.github.io/luxon/)  
 
+## License
+MIT License
 
-## Screenshot
+Copyright (c) 2021 a-andres1
 
-![calendar-app](./Assests/CalendarApp.png)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[License](LICENSE)
+
+## Contact Info
+[email me](mailto:alyssaandres1@gmail.com)  
+[find me on github](https://github.com/a-andres1)
 
 ### Notes
 
